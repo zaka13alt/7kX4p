@@ -60,10 +60,10 @@ button#uv-open-btn:hover, button#uv-newtab-btn:hover { background: #555; }
 (function () {
     var _href = location.href;
     // If running inside a proxied worker, self.location is the proxied URL
-    var _svc = _href.indexOf('/zaka/ixl/study/workworkwork/');
+    var _svc = _href.indexOf('/ixl/');
     var _base = _svc !== -1 ? _href.slice(0, _svc) + '/' : new URL('./', _href).href;
     window.__uv$config = {
-        prefix: new URL('/zaka/ixl/study/workworkwork/', _base).pathname,
+        prefix: new URL('ixl/', _base).pathname,
         encodeUrl: Ultraviolet.codec.xor.encode,
         decodeUrl: Ultraviolet.codec.xor.decode,
         handler: new URL('uv.handler.js', _base).href,
@@ -122,8 +122,8 @@ async function registerSW() {
       <xhtml:body>
 
         <xhtml:div class="flex-center logo-wrapper header-center">
-          <xhtml:h1></xhtml:h1>
-          <xhtml:p style="color:rgba(253,253,253,0.5);font-size:80%"></xhtml:p>
+          <xhtml:h1>zakas&#8217;s Ultraviolet SVG Proxy</xhtml:h1>
+          <xhtml:p style="color:rgba(253,253,253,0.5);font-size:80%">idk &#8212; LMAO</xhtml:p>
         </xhtml:div>
 
         <xhtml:form id="uv-form" class="flex-center">
@@ -136,7 +136,7 @@ async function registerSW() {
 
         <xhtml:br/>
         <xhtml:div class="flex-center desc">
-          <xhtml:button id="uv-newtab-btn" onclick="newTab()">h</xhtml:button>
+          <xhtml:button id="uv-newtab-btn" onclick="newTab()">Open in New Tab</xhtml:button>
         </xhtml:div>
 
         <xhtml:div class="desc">
@@ -145,8 +145,8 @@ async function registerSW() {
         </xhtml:div>
 
         <xhtml:footer>
-          <xhtml:div><xhtml:a href="/credits.html">Credits</xhtml:a></xhtml:div>
-          <xhtml:div><xhtml:span>lightweight embed pr0xy</xhtml:span></xhtml:div>
+          <xhtml:div><xhtml:a href="credits.html">Credits</xhtml:a></xhtml:div>
+          <xhtml:div><xhtml:span>Ultraviolet &#169; TN 2023 and BestSpark687090 (Modified by zaka)</xhtml:span></xhtml:div>
         </xhtml:footer>
 
         <xhtml:iframe style="display: none" id="uv-frame"></xhtml:iframe>
