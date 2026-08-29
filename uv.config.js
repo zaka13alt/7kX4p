@@ -4,7 +4,7 @@
     var _svc = _href.indexOf('/zaka/ixl/study/workworkwork/');
     var _base = _svc !== -1 ? _href.slice(0, _svc) + '/' : new URL('./', _href).href;
     self.__uv$config = {
-        prefix: new URL('/zaka/ixl/study/workworkwork/', _base).pathname,
+        prefix: new URL('zaka/ixl/study/workworkwork/', _base).pathname,
         encodeUrl: Ultraviolet.codec.xor.encode,
         decodeUrl: Ultraviolet.codec.xor.decode,
         handler: new URL('uv.handler.js', _base).href,
