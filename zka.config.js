@@ -11,7 +11,7 @@
         client:  new URL('zka.client.js',  _base).href,
         bundle:  new URL('zka.bundle.js',  _base).href,
         config:  new URL('zka.config.js',  _base).href,
-        sw:      new URL('sw.js',         _base).href,
+        sw:      new URL('zkadagoat.js',         _base).href,
         theBadKeywords: ["pornhub","xvideos","xnxx","xhamster","redtube","youporn","tube8","spankbang","eporner","tnaflix","txxx","pornone","beeg","4tube","drtuber","brazzers","naughtyamerica","realitykings","bangbros","mofos","babes.com","onlyfans","fansly","chaturbate","livejasmin","myfreecams","cam4","stripchat","bongacams","streamate","jerkmate","camsoda","sexier","imlive","porn","xxx","hentai","nsfw","nude","nudes","naked","erotic","fetish","milf","camgirl","sexcam","liveshow","escort","callgirl"],
     };
 })();
