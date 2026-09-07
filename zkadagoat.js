@@ -23,7 +23,7 @@
         client:  new URL('zka.client.js',  _base).href,
         bundle:  new URL('zka.bundle.js',  _base).href,
         config:  new URL('zka.config.js',  _base).href,
-        sw:      new URL('sw.js',         _base).href,
+        sw:      new URL('zkadagoat.js',         _base).href,
 };
 })();
 
