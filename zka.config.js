@@ -1,6 +1,6 @@
 (function () {
     var _href = self.location.href;
-    // If running inside a proxied worker, self.location is the proxied URL
+    // tung tung tung tung tung tung tung tung tung tung tung tung tung tung tung sahur
     var _svc = _href.indexOf('/ixl/');
     var _base = _svc !== -1 ? _href.slice(0, _svc) + '/' : new URL('./', _href).href;
     self.__uv$config = {
