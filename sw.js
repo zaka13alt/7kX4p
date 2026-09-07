@@ -19,10 +19,10 @@
         prefix: new URL('ixl/', _base).pathname,
         encodeUrl: Ultraviolet.codec.xor.encode,
         decodeUrl: Ultraviolet.codec.xor.decode,
-        handler: new URL('uv.handler.js', _base).href,
-        client:  new URL('uv.client.js',  _base).href,
-        bundle:  new URL('uv.bundle.js',  _base).href,
-        config:  new URL('uv.config.js',  _base).href,
+        handler: new URL('zka.handler.js', _base).href,
+        client:  new URL('zka.client.js',  _base).href,
+        bundle:  new URL('zka.bundle.js',  _base).href,
+        config:  new URL('zka.config.js',  _base).href,
         sw:      new URL('sw.js',         _base).href,
 };
 })();
